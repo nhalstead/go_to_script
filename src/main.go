@@ -29,7 +29,7 @@ type SetupConfig struct {
 // MailMessage - SEND - Email File Data being Sent to the API Client
 type MailMessage struct {
 	ID           string       `json:"message_id"`
-	Sender       string       `json:"ip"`
+	Sender       string       `json:"sender"`
 	From         string       `json:"from"`
 	Recipients   []string     `json:"recipients"`
 	To           []string     `json:"to"`
