@@ -18,7 +18,6 @@ import (
 )
 
 const version = "1.0"
-const max_attachment_size = 20 // MB
 
 var Config SetupConfig
 
